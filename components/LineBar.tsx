@@ -33,7 +33,7 @@ const LineBar = ({data} : {data: { x: number, y: number}[]}) => {
             size: 0
         },
         title: {
-            text: "Stock Price Movement",
+            text: "Life graph",
             align: "left"
         },
         fill: {
@@ -78,6 +78,7 @@ const LineBar = ({data} : {data: { x: number, y: number}[]}) => {
                 type="area"
                 height={350}
                 width={600}
+                className="bg-white rounded-lg p-4 max-w-min"
             />
     );
 }
